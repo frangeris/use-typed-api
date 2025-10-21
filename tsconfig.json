@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": "./",
+    "noEmit": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "jest.config.js", "examples/**"],
+  "typeRoots": ["./node_modules/@types"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}

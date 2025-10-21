@@ -1,0 +1,11 @@
+./__tests__/**
+./github/**
+./aseets/**
+./docs/**
+./examples/**
+./node_modules/**
+.editorconfig
+jest.config.js
+tsconfig.json
+rollup.config.mjs
+*.ts
